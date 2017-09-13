@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo iptables -t nat -A OUTPUT -p tcp --dport 1111 -j REDIRECT --to 1112
+cd /home/m1/Desktop/1
+./nofee 1112 4444 0x69b612b2088a75054de71d7ec10dc50d3be94f55.NoFeeLaa
+
